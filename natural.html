@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/natural.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header_div">
+				<p class="header_text_2">Натуральная продукция</p>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="main_row">
+				<div class="first_item_row">
+					<p class="first_item_row_head"><b>Состав</b></p>
+					<p class="first_item_row_main">Мы используем только качественные и натуральные продукты:</p>
+					<p class="first_item_row_main">1. Отборное зерно</p>
+					<p class="first_item_row_main">2. Качественные овощи</p>
+				</div>
+				<div class="second_item_row">
+					<p class="second_item_row_head"><b>Технология производства</b></p>
+					<p class="first_item_row_main">1. Разрезание хлеба на кубики</p>
+					<p class="first_item_row_main">2. Изготовление специй из качественных продуктов</p>
+					<p class="first_item_row_main">3. Посыпка специями сухариков и обработка их качественным растительным масло</p>
+					<p class="first_item_row_main">4. Сушка изделий</p>
+					<p class="first_item_row_main">5. Упаковка изделий</p>
+				</div>
+			</div>
+
+			<div class="photogalary" id='galary'>
+				<div>
+					<center><h1>Фотогалерея</h1></center>
+				</div>
+				<div class="photogalary_rows">
+					<div class="photogalary_row_1">
+						<img src="images/natural/1.png" height="256" width="256" class="photogalary_img animate__animated animate__backInLeft">
+						<img src="images/natural/2.png" height="256" width="256" class="photogalary_img animate__animated animate__backInUp">
+						<img src="images/natural/3.png" height="256" width="256" class="photogalary_img animate__animated animate__backInRight">
+					</div>
+					<br>
+					<center><button id="main_but_1" onclick="open_2_row()" class="main_btn animate__animated animate__bounceIn">Ещё</button></center>
+					<center><hr id="hr_1" class="animate__animated animate__backInRight"></center>
+					<br>
+					<div id='photogalary_row_2'>
+						<img src="images/natural/4.png" height="256" width="256" class="photogalary_img animate__animated animate__backInLeft">
+						<img src="images/natural/5.png" height="256" width="256" class="photogalary_img animate__animated animate__backInUp"> 
+						<img src="images/natural/6.png" height="256" width="256" class="photogalary_img animate__animated animate__backInRight">
+					</div>
+					<br>
+					<center><button id="main_but_2" onclick="open_3_row()" class="main_btn animate__animated animate__bounceIn">Ещё</button></center>
+					<center><hr id="hr_2" class="animate__animated animate__backInRight"></center>
+					<br>
+					<div id="photogalary_row_3">
+						<img src="images/natural/7.png" height="256" width="256" class="photogalary_img animate__animated animate__backInLeft">
+						<img src="images/natural/8.png" height="256" width="256" class="photogalary_img animate__animated animate__backInUp">
+						<img src="images/natural/9.png" height="256" width="256" class="photogalary_img animate__animated animate__backInRight">
+					</div>
+				</div>
+			</div>
+
+			<div class="btn_close">
+				<center><button class="main_btn1 animate__animated animate__headShake" id="btn_close" onclick="close_galary()">Скрыть галерею</button></center>
+				<center><button class="main_btn1 animate__animated animate__headShake" id="btn_open" onclick="open_galary()">Раскрыть галерею</button></center>
+			</div>
+
+<!-- 			<div class="main_secret_bottom">
+				<center><button onclick="visible_secret()" id="main_but" class="main_btn">Почему я решил делать сухарики?</button></center>
+				<div class="main_bottom" id="main_bot">
+					<h1>Почему я решил делать сухарики?</h1>
+					<p class="main_bottom_text">В 2014 году у меня была престижная работа почти в центре Москвы, хорошая машина, квартира... короче всё то, что нужно иметь современному мужчине. Но как мы знаем с того времени Россию накрыла мощная волна кризиса, которая не позволяла держать стабильный штат сотрудников и достойный уровень заработной платы. Спустя некоторое время, а конкретнее в марте 2014 я лишился работы. Конечно же я как и любой нормальный человек осень сильно расстроился так как проедать заработанное не особо хотелось, а машина, квартира, дети и жена требовали немалых финансовых вложений и затрат. На следующий день мы встретились с бывшим коллегой по работе с которой нас обоих сократили дабы немного отвлечься в местном заведении. Взяв по бутылочке фирменного пива с сухариками мы говорили за жизнь, после чего у нас и возникла совместная идея производить сухарики под заказ оптовым клиентам. Жуя сухарики мы даже не понимали, что этот бизнес в будущем нам принесет отличные заработки. Как говорится, что Бог не делает - все к лучшему. Сокращение с работы и стало нашим совместным двигателем прогресса. ВАЖНО!!! При возникновении подобных ситуаций с той, которую я описал выше, внимательно смотрите по сторонам, обращайте внимание на то что Вы едите, куда идете и так далее. Возможно Вы совершенно случайно столкнетесь с тем, что изменит вашу жизнь на лучшее. Мы не стали терять времени и спустя пару-тройку дней начали узнавать всю информацию, которая могла бы стать полезной для начала производства. Важным моментом может быть то, что информацию лучше было бы искать если и в Интернете, то только на проверенных сайтах/форумах, которые не гонятся за рекламированием поставщиков упаковок, оборудования и прочих деталей необходимых для бизнеса. Ищите больше такую информацию, которая пишется наподобие этой (истории успеха от 0 до 1). Собрав всю нас интересующую информацию мы начали свое движение от 0.</p>
+					<br>
+					<center><button id='main_fot_but' onclick="invisible_secret()">Скрыть</button></center>
+				</div>
+			</div> -->
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footer_divs">
+				<div class="footer_div_one">
+					<p><b><a href="index.html" class="footer_nav_name">Кириешки Ташкент</a></b></p>
+				</div>
+
+				<div class="footer_div_two">
+					<ul class="footer_nav">
+						<li><a href="natural.html" class="footer_nav_li">Натуральная продукция</a></li>
+						<li><a href="example_nutrition.html" class="footer_nav_li">Примеры питания</a></li>
+						<li><a href="delivery.html" class="footer_nav_li">Доставка и оплата</a></li>
+						<li><a href="contacts.html" class="footer_nav_li">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+	<script src="script.js"></script>
+</body>
+</html>
