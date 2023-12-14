@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.header_text_1 {
+	font-size: 50px;
+	color: #70869d;
+}
+
+.header_text_2 {
+	font-size: 70px;
+	color: #404040;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+    background: url(../images/natural.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.main_row {
+	display: flex;
+	justify-content: center;
+}
+
+.first_item_row {
+	padding: 12px;
+	background: #ebebeb;
+	border-radius: 25px;
+}
+
+.second_item_row {
+	margin-left: 105px;
+	padding: 12px;
+	background: #ebebeb;
+	border-radius: 25px;
+}
+
+.first_item_row_head {
+	color: #9b8121;
+	font-size: 34px;
+}
+
+.second_item_row_head {
+	color: #9b8121;
+	font-size: 34px;
+}
+
+.first_item_row_main {
+	font-size: 28px;
+}
+
+.main_secret_bottom {
+	margin-top: 45px;
+}
+
+.main_bottom {
+	display: none;
+	padding: 15px;
+	background: #ebebeb;
+	border-radius: 25px;
+}
+
+.main_bottom_text {
+	font-size: 20px;
+}
+
+
+.photogalary_row_1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main_btn {
+	padding: 5px;
+    width: 300px;
+    height: 55px;
+    background: wheat;
+    border: 0;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+#main_but_2 {
+	display: none;
+}
+
+.main_btn:hover {
+	cursor: pointer;
+	background: #d1bd99;
+	transition: 300ms;
+}
+
+#photogalary_row_2 {
+	display: none;
+}
+
+#photogalary_row_3 {
+	display: none;
+}
+
+.photogalary {
+	animation: ani 2.5s forwards;
+	margin-top: 50px;
+	background: #ebebeb;
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.btn_close {
+	margin-top: 25px;
+}
+
+#btn_open {
+	display: none;
+}
+
+hr {
+	width: 95%;
+}
+
+#hr_1, #hr_2 {
+	display: none;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.main_btn1 {
+	padding: 5px;
+    width: 300px;
+    height: 55px;
+    background: #45dbf5;
+    border: 0;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+.main_btn1:hover {
+	cursor: pointer;
+	background: #3bbbd1;
+	transition: 300ms;
+}

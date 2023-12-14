@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.header_text_1 {
+	font-size: 50px;
+	color: #70869d;
+}
+
+.header_text_2 {
+	font-size: 70px;
+	color: #404040;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+    background: url(../images/header_bg.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.items_one_row {
+	display: flex;
+}
+
+.items_two_row {
+	margin-top: 100px;
+	display: flex;
+}
+
+.header_div {
+	display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first_item {
+	display: flex;
+	align-items: center;
+}
+
+.second_item {
+	margin-left: 30px;
+}
+
+.first_item_img {
+	margin-right: 30px;
+}
+
+.first_item_name {
+	color: #1f3750;
+	font-size: 18px;
+}
+
+.first_item_description {
+	color: #70869d;
+	max-width: 255px;
+}
+
+.first_item_button {
+	width: 160px;
+	height: 40px;
+	border: 0;
+	color: #70869d;
+	background: #f2f2f2;
+}
+
+.first_item_button:hover {
+	cursor: pointer;
+	color: white;
+	background: #0092b6;
+}
+
+.product_description {
+	color: #70869d;
+	margin-bottom: 28px;
+}
+
+.products {
+	margin-top: 100px;
+	display: flex;
+	background: #f3f9ff;
+}
+
+.product_one {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 28px;
+	padding-right: 28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 255px;
+}
+
+.product_img {
+	margin-bottom: 32px;
+	margin-top: 35px;
+}
+
+.product_name {
+	text-align: center;
+	color: #1f3750;
+}
+
+.product_a {
+	color: #1f3750;
+	text-decoration: underline;
+	max-width: 5%;
+}
+
+.traders_name {
+	margin-top: 50px;
+	font-size: 20px;
+	color: #1f3750;
+	margin-bottom: 45px;
+}
+
+.traders {
+	display: flex;
+	justify-content: center;
+}
+
+.traders_first_column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 150px;
+}
+
+.traders_two_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.traders_location {
+	color: #70869d;
+	font-size: 20px;
+}
+
+.traders_location:hover {
+	color: #0092b6;
+}
+
+footer {
+	margin-top: 110px;
+	background: #f3f9ff;
+	padding-top: 43px;
+	padding-bottom: 43px;
+}
+
+.footer_divs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_nav {
+	display: flex;
+}
+
+.footer_nav_name {
+	color: #444444;
+	font-size: 20px;
+}
+
+.footer_nav_li {
+	margin-right: 30px;
+	font-size: 14px;
+	color: #6d6d6d;
+}
+

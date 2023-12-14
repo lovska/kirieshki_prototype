@@ -1,0 +1,27 @@
+footer {
+	margin-top: 110px;
+	background: #f3f9ff;
+	padding-top: 43px;
+	padding-bottom: 43px;
+}
+
+.footer_divs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_nav {
+	display: flex;
+}
+
+.footer_nav_name {
+	color: #444444;
+	font-size: 20px;
+}
+
+.footer_nav_li {
+	margin-right: 30px;
+	font-size: 14px;
+	color: #6d6d6d;
+}
